@@ -13,6 +13,9 @@ devDependencies:
   vite:
     specifier: ^4.3.5
     version: 4.3.5
+  vite-plugin-full-reload:
+    specifier: ^1.0.5
+    version: 1.0.5(vite@4.3.5)
   vite-plugin-ruby:
     specifier: ^3.2.2
     version: 3.2.2(vite@4.3.5)
@@ -613,6 +616,16 @@ packages:
     engines: {node: '>=8.0'}
     dependencies:
       is-number: 7.0.0
+    dev: true
+
+  /vite-plugin-full-reload@1.0.5(vite@4.3.5):
+    resolution: {integrity: sha512-kVZFDFWr0DxiHn6MuDVTQf7gnWIdETGlZh0hvTiMXzRN80vgF4PKbONSq8U1d0WtHsKaFODTQgJeakLacoPZEQ==}
+    peerDependencies:
+      vite: ^2 || ^3 || ^4
+    dependencies:
+      picocolors: 1.0.0
+      picomatch: 2.3.1
+      vite: 4.3.5
     dev: true
 
   /vite-plugin-ruby@3.2.2(vite@4.3.5):
