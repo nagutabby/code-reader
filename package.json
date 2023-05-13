@@ -1,7 +1,10 @@
 {
   "devDependencies": {
     "@inertiajs/svelte": "^1.0.6",
+    "@sveltejs/vite-plugin-svelte": "^2.2.0",
+    "svelte": "^3.59.1",
     "vite": "^4.3.5",
     "vite-plugin-ruby": "^3.2.2"
-  }
+  },
+  "type": "module"
 }
