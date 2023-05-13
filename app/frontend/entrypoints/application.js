@@ -1,5 +1,6 @@
 import { createInertiaApp } from "@inertiajs/svelte"
 import Layout from "../layouts/Layout.svelte"
+import "./register_service_worker"
 
 const pages = import.meta.glob("../pages/**/*.svelte")
 
