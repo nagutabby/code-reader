@@ -2,5 +2,13 @@
   import { Link } from "@inertiajs/svelte";
 </script>
 
-<Link href="/">Home</Link>
-<Link href="/about">About</Link>
+<nav>
+  <ul>
+    <li>
+      <Link href="/">Home</Link>
+    </li>
+    <li>
+      <Link href="/about">About</Link>
+    </li>
+  </ul>
+</nav>
